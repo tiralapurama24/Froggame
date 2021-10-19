@@ -21,6 +21,7 @@ wormGroup = new Group()
 
 }
 
+
 function draw() {
 background("black");  
 stroke("red")
@@ -51,8 +52,10 @@ function generateWorms() {
     worm.scale = random(0.1, 0.3)
     worm.addImage(wormImage)
    
-    wormGroup.add(worm worm.velocityX = random(-6,6)
-    worm.velocityY = random(-6,6))
+   worm.velocityX = random(-6,6)
+    worm.velocityY = random(-6,6)
+    wormGroup.add(worm)
+
   }
   
 }
